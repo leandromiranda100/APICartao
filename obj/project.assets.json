@@ -1,0 +1,288 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.5",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.4",
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.5",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.3",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Utils >= 3.1.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\NovaMeta - 03\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Leandro\\ApiCartao-master\\ApiCartao-master\\ApiCartao\\ApiCartao.csproj",
+      "projectName": "ApiCartao",
+      "projectPath": "C:\\Leandro\\ApiCartao-master\\ApiCartao-master\\ApiCartao\\ApiCartao.csproj",
+      "packagesPath": "C:\\Users\\NovaMeta - 03\\.nuget\\packages\\",
+      "outputPath": "C:\\Leandro\\ApiCartao-master\\ApiCartao-master\\ApiCartao\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\NovaMeta - 03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[3.1.5, )"
+          },
+          "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[3.1.4, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.5, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.32, 3.1.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/index.json'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/index.json'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.Bcl.HashCode.1.1.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.Data.SqlClient.1.0.19269.1' from 'https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlclient/1.0.19269.1/microsoft.data.sqlclient.1.0.19269.1.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'System.ComponentModel.Annotations.4.7.0' from 'https://api.nuget.org/v3-flatcontainer/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.CodeAnalysis.Common.3.3.1' from 'https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/3.3.1/microsoft.codeanalysis.common.3.3.1.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'SQLitePCLRaw.lib.e_sqlite3.2.0.2' from 'https://api.nuget.org/v3-flatcontainer/sqlitepclraw.lib.e_sqlite3/2.0.2/sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.AspNetCore.Razor.Language.3.1.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.razor.language/3.1.0/microsoft.aspnetcore.razor.language.3.1.0.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Newtonsoft.Json.11.0.2' from 'https://api.nuget.org/v3-flatcontainer/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.Extensions.DependencyInjection.3.1.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/3.1.0/microsoft.extensions.dependencyinjection.3.1.0.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.EntityFrameworkCore.3.1.5' from 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/3.1.5/microsoft.entityframeworkcore.3.1.5.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.CodeAnalysis.Workspaces.Common.3.3.1' from 'https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.common/3.3.1/microsoft.codeanalysis.workspaces.common.3.3.1.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.AspNetCore.Razor.Runtime.2.2.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.razor.runtime/2.2.0/microsoft.aspnetcore.razor.runtime.2.2.0.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.Extensions.DependencyInjection.3.1.4' from 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/3.1.4/microsoft.extensions.dependencyinjection.3.1.4.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.CodeAnalysis.Razor.3.1.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.razor/3.1.0/microsoft.codeanalysis.razor.3.1.0.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Abstractions' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.abstractions/index.json'.",
+      "libraryId": "Microsoft.Extensions.Caching.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'SQLitePCLRaw.lib.e_sqlite3' from remote source 'https://api.nuget.org/v3-flatcontainer/sqlitepclraw.lib.e_sqlite3/index.json'.",
+      "libraryId": "SQLitePCLRaw.lib.e_sqlite3"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Bcl.HashCode' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.bcl.hashcode/index.json'.",
+      "libraryId": "Microsoft.Bcl.HashCode"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Workspaces.Common' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.common/index.json'.",
+      "libraryId": "Microsoft.CodeAnalysis.Workspaces.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Common' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/index.json'.",
+      "libraryId": "Microsoft.CodeAnalysis.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.Razor.Runtime' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.razor.runtime/index.json'.",
+      "libraryId": "Microsoft.AspNetCore.Razor.Runtime"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Data.SqlClient' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlclient/index.json'.",
+      "libraryId": "Microsoft.Data.SqlClient"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.ComponentModel.Annotations' from remote source 'https://api.nuget.org/v3-flatcontainer/system.componentmodel.annotations/index.json'.",
+      "libraryId": "System.ComponentModel.Annotations"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/index.json'.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/index.json'.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.Razor.Language' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.razor.language/index.json'.",
+      "libraryId": "Microsoft.AspNetCore.Razor.Language"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Newtonsoft.Json' from remote source 'https://api.nuget.org/v3-flatcontainer/newtonsoft.json/index.json'.",
+      "libraryId": "Newtonsoft.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Razor' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.razor/index.json'.",
+      "libraryId": "Microsoft.CodeAnalysis.Razor"
+    }
+  ]
+}
